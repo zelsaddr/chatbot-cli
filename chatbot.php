@@ -1,5 +1,9 @@
 <?php
-/* Work 100% for no life people  */
+/* 
+Work 100% for no life people  
+Unix only
+mazterin.com
+*/
 	function colorz($opt = 'cyan', $text){
 		$green  = "\e[1;92m";
 		$cyan   = "\e[1;36m";
@@ -33,7 +37,7 @@
 	}
 	function CheckOS(){
         if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-            echo exec("cls");
+            echo exec("not supported for windows user.");
         } else {
             echo exec("clear");
         }
